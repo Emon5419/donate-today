@@ -47,3 +47,63 @@ h1 {
 }
 
 /* header section end */
+/* donations section start  */
+#donate-now {
+   text-align: center;
+   padding-top: 100px;
+}
+
+.donate-now-title {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.donate-now-title h1 {
+   font-size: 30px;
+}
+
+.donate-now-title p {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 15px;
+}
+
+.donat-button {
+   width: 80%;
+   display: flex;
+   text-align: center;
+   margin: 0 auto;
+   justify-content: center;
+   gap: 15px;
+   margin-bottom: 20px;
+}
+
+.donate-money {
+   width: 100px;
+   height: 100px;
+   background-color: #fafafa;
+   border: none;
+   color: #707070;
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.donate-money:hover {
+   background-color: #ffeeee;
+   border: 1px solid #ff5959;
+   border-radius: 5px;
+}
+
+.donate-amount {
+   padding-bottom: 80px;
+}
+
+.donate-amount input {
+   width: 80%;
+   padding: 12px;
+   text-align: center;
+   border: none;
+   border-bottom: 1px solid tomato;
+}
+
+/* donations section end  */
