@@ -107,3 +107,49 @@ h1 {
 }
 
 /* donations section end  */
+/* donation-plan-section start  */
+#donation-plan-section {
+   padding-bottom: 100px;
+}
+
+.donate-plan-title {
+   text-align: center;
+}
+
+.donate-plan-title h1 {
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+.donate-plan-title p {
+   font-size: 15px;
+}
+
+.donate-packages {
+   width: 80%;
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0 auto;
+   gap: 20px;
+}
+
+.packages-item {
+   width: 50%;
+   padding: 40px;
+   background-color: #fcebe4;
+   border-radius: 5px;
+}
+
+.packages-item h3 {
+   margin-top: 10px;
+}
+
+.packages-item p {
+   margin-top: 10px;
+}
+
+.packages-item:hover {
+   border: 1px solid red;
+}
+
+/* donation-plan-section end  */
